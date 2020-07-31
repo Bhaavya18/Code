@@ -36,7 +36,7 @@ int printincre2(int st,int end)
         return end+1;
     }
     int head=printincre2(st,end-1);
-    cout<<head<<endl8;
+    cout<<head<<endl;
     return head+1;
 }
 int main(int arg,char** argv)
