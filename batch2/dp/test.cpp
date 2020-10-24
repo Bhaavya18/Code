@@ -1830,7 +1830,11 @@ int main()
 //target();
 //stringproblems();
 //LS();
-cut();
+//cut();
+vector<int>values={6,21,4,27,23,46,9,5,15};
+vector<int>weight={4,2,5,5,7,8,7,10,5};
+vector<vector<int>>dp(values.size()+1,vector<int>(10,0));
+cout<<knapsnack_M(9,0,weight,values,dp);
 
   return 0;
 
