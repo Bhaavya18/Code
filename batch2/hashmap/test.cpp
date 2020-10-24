@@ -2,7 +2,6 @@
 #include<vector>
 #include<unordered_map>
 using namespace std;
-
 void longestseries(vector<int>&arr)
 {
     unordered_map<int,bool>map;
